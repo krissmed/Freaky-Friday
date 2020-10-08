@@ -15,9 +15,10 @@ nav{
     justify-content: space-around;
     position: fixed;
 }
-#hjemLogo{
+#navLogo{
     width: 10%;
     height:auto;
+    cursor: pointer;
 }
 .navItems{
     margin-left: 2%;
@@ -42,6 +43,10 @@ nav{
     padding-left: 10%;
     font-size: 3em;
     z-index: 1;
+}
+#menuHeader{
+    font-size: 2.5em;
+    margin-left: 47%;
 }
 #menu{
     margin-left: 15%;
@@ -93,4 +98,20 @@ nav{
 .socialMediaIcon{
     width: 100px;
     margin-bottom: 100px;
+}
+#toTop{ 
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+#toTop:hover{
+    background-color: #660000;
 }

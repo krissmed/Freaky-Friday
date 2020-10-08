@@ -7,7 +7,7 @@
 </head>
 <body>
     <nav>
-        <img alt="logo" onclick="reloadPage()" id="hjemLogo" href="#backgroundImage" src="Media/Logo.png">
+        <img alt="logo" href="" id="navLogo" href="#backgroundImage" src="Media/Logo.png">
         <a href="#backgroundImage" class="navItems">Hjem</a>
         <a href="#menu" class="navItems">Meny</a>
         <a href="#order" class="navItems">Bestill</a>
@@ -18,7 +18,9 @@
             <h1>Eat, sleep, eat!</h1>
         </div>
     </div>
+    <div id="toTop" onclick="moveToTop()">Til toppen</div>
     <div id="menu">
+        <h1 id="menuHeader">MENY</h1>
         <table>
             <tr>
                 <td><h2 class="dish">CLUBSANDWICH</h2></td>
@@ -123,7 +125,7 @@
         </table>
     </div>
     <div id="order">
-        <h1 id="orderHeader">Reserver bord</h1>
+        <h1 id="orderHeader">RESERVER BORD</h1>
         <form>   
             <br>
             <label for="firstName" class="orderInput">Fornavn: </label>
@@ -155,19 +157,20 @@
         <div id="contact">
             <h1 class="contactInfo">Telefon: 123 45 678</h1>
             <h1 class="contactInfo">Epost: Resturant@live.com</h1>
+            <h1 class="contactInfo">Adresse: Pilestredet 35</h1>
         </div>  
         <div id="socialMedia">
-            <a href=""><img alt="facebook" class="socialMediaIcon" id="facebook" src="Media/Facebook.png"></a>
-            <a href=""><img alt="instagram" class="socialMediaIcon" id="instagram" src="Media/Instagram.png"></a>
-            <a href=""><img alt="snapchat" class="socialMediaIcon" id="snap" src="Media/Snap.png"></a>
-            <a href=""><img alt="twitter" class="socialMediaIcon" id="twitter" src="Media/Twitter.png"></a>
-            <a href=""><img alt="youtube" class="socialMediaIcon" id="youtube" src="Media/Youtube.png"></a>
+            <a href=""><img alt="facebook" class="socialMediaIcon" src="Media/Facebook.png"></a>
+            <a href=""><img alt="instagram" class="socialMediaIcon" src="Media/Instagram.png"></a>
+            <a href=""><img alt="snapchat" class="socialMediaIcon" src="Media/Snap.png"></a>
+            <a href=""><img alt="twitter" class="socialMediaIcon" src="Media/Twitter.png"></a>
+            <a href=""><img alt="tripAdvisor" class="socialMediaIcon" src="Media/TripAdvisor.png"></a>
         </div>
     </footer>
     <script>
-        function reloadPage(){
+        // To make it easier to move to the top of the page
+        function moveToTop(){
             window.scrollTo(0,0);
-            location.reload();
         }
     </script>
 </body>
