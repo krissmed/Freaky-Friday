@@ -1,0 +1,96 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: ivory;
+    margin:0;
+}
+nav{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f1f1;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+}
+#hjemLogo{
+    width: 10%;
+    height:auto;
+}
+.navItems{
+    margin-left: 2%;
+    color: black;
+    font-size: 1.5em;
+}
+.navItems:hover{
+    text-decoration: underline;
+    color:red;
+    transition:color, 0.2s;
+    transform: scale(1.2);
+}
+#backgroundImage{
+    height: 100%;
+    background-image: url("https://www.docwirenews.com/wp-content/uploads/2019/05/Ultra-processed-foods-photo.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#slogan{
+    color:#000000;
+    padding-top: 25%;
+    padding-left: 10%;
+    font-size: 3em;
+    z-index: 1;
+}
+#menu{
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-right: 15%;
+}
+.ingredients{
+    font-size: 1.5em;
+}
+.dish{
+    border-top: black solid 2px;;
+    margin-top: 75px;
+}
+.price{
+    text-align: center;
+}
+#order{
+    border-top: solid black 2px;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#orderHeader{
+    font-size: 3em;
+}
+.orderInput{
+    margin-bottom: 25px;
+    font-size: 1.3em;
+}
+#contact{
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    margin-top: 2%;
+    border-top: solid black 2px;
+}
+.contactInfo{
+    margin-left: 100px;
+}
+#socialMedia{
+    margin-top: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.socialMediaIcon{
+    width: 100px;
+    margin-bottom: 100px;
+}
